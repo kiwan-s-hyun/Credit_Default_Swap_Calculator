@@ -64,9 +64,9 @@ if __name__ == '__main__':
         price=test_data['price']    
     )
 
-    print(f'Swap Rate: {test_data['rfr']}, ' + 
-          f'Expected Output: {test_data['expected']}, ' + 
-          f'Actual Output: {par_spread}')
+    print(f"Swap Rate: {test_data['rfr']}, " + 
+          f"Expected Output: {test_data['expected']}, " + 
+          f"Actual Output: {par_spread}")
 
     def f(rfr):
         test.discount_curve.update_rate(new_rfr=rfr)
