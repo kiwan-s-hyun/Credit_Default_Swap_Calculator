@@ -262,6 +262,10 @@ http-client.private.env.json
 #  you could uncomment the following to ignore the enitre vscode folder
 # .vscode/
 .vscode/*
+.vs/
+*.vsidx
+*.user
+*.suo
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -284,3 +288,7 @@ http-client.private.env.json
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
